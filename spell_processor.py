@@ -8,6 +8,7 @@ from os import listdir
 
 class SpellList:
     def __init__(self, name):
+        # BASE DATA
         self.name = name
         self.spells = []
         self.spell_list = []
@@ -17,33 +18,49 @@ class SpellList:
         self.range = []
         self.duration = []
         self.casting_time = []
-        self.school = ["abjuration","conjuration","divination","enchantment","evocation","illusion","necromancy",
+        self.schools = ["abjuration","conjuration","divination","enchantment","evocation","illusion","necromancy",
                        "transmutation"]
-        self.ritual = [True, False]
-        self.desc_dict = {}
-        self.spell2class = {}
-        self.class2spell = {}
-        self.spell2level = {}
-        self.spell2school = {}
+        #DICTIONARIES
+        self.desc_dict = {} # COMPLETE
+        self.spell2class = {} # COMPLETE
+        self.class2spell = {} # COMPLETE
+        self.spell2level = {} # COMPLETE
+        self.level2spell = {} # COMPLETE
+        self.spell2school = {} # COMPLETE
+        self.school2spell = {} # COMPLETE
+        self.spell2ritual = {}
         self.spell2duration = {}
         self.spell2range = {}
         self.spell2components = {}
 
     # Reads in data and processes it into its final format
     def readIn(self, spells_file, spell_list_file):
-        self.spells = [line.strip() for line in open(spells_file)]
-        self.spell_list = [line.strip() for line in open(spell_list_file)]
+        self.spells = [line.strip().lower() for line in open(spells_file)]
+        self.spell_list = [line.strip().lower() for line in open(spell_list_file)]
+        for spell in range(len(self.spells)):
+            if " (r" in self.spells[spell]:
+                self.spells[spell] = self.spells[spell][:self.spells[spell].index(" (r")]
+        for spell in range(len(self.spell_list)):
+            if " (r" in self.spell_list[spell]:
+                self.spell_list[spell] = self.spell_list[spell][:self.spell_list[spell].index(" (r")]
+
 
         # Formatting the spells in order to process them
         spells_temp = []
         templines = []
-        for line in self.spells:
-            if line not in self.spell_list:
+        for l in range(len(self.spells)):
+            line = self.spells[l]
+            if line == "divination" and self.spells[l+1] == "divination":
+                spells_temp.append(templines)
+                templines = []
                 templines.append(line)
-            elif line == "Zone of Truth":
+            elif line not in self.spell_list or line == "divination":
+                templines.append(line)
+            elif line == "zone of truth":
                 spells_temp.append(templines)
-                templines = [self.spells[self.spells.index(line):]]
+                templines = self.spells[l:]
                 spells_temp.append(templines)
+                break
             else:
                 spells_temp.append(templines)
                 templines = []
@@ -67,7 +84,7 @@ class SpellList:
 
         # Creates a dictionary from spell name to classes
         for class_name in self.classes:
-            spells = [line.strip() for line in open("spell_lists/"+class_name+".txt")]
+            spells = [line.strip().lower() for line in open("spell_lists/"+class_name+".txt")]
             for spell in spells:
                 self.spell2class[spell] = self.spell2class.get(spell, []) + [class_name]
 
@@ -77,18 +94,123 @@ class SpellList:
                 if class_name in self.spell2class[spell]:
                     self.class2spell[class_name] = self.class2spell.get(class_name, []) + [spell]
 
+        # Creates a dictionary from spell to level
+        for spell in range(len(self.spells)):
+            self.spell2level[self.spell_list[spell]] = self.spells[spell][2][7:].lower()
+
+        # Creates a dictionary from level to spell
+        for level in self.spell_levels:
+            for spell in self.spell2level:
+                if level in self.spell2level[spell]:
+                    self.level2spell[level] = self.level2spell.get(level, []) + [spell]
+
+        # Creates a dictionary from spell name to school
+        for spell in range(len(self.spell_list)):
+            self.spell2school[self.spell_list[spell]] = self.spells[spell][1].lower()
+
+        # Creates a dictionary from school to spell names
+        for school in self.schools:
+            for spell in self.spell2school:
+                if school in self.spell2school[spell]:
+                    self.school2spell[school] = self.school2spell.get(school, []) + [spell]
+
         # Creates a dictionary from spell name to duration
 
 
         # Creates a dictionary from spell name to casting time
 
 
-        # Creates a dictionary from spell name to school
-
-
         # Creates a dictionary from spell name to range
 
 
+
+    # INTERFACE
+
+    # Main menu
+    def getInfo(self):
+        print("Welcome to the D&D spell info dictionary.")
+        while True:
+            print("Please enter desired information type")
+            print("Options: FULL SPELL LIST | SPELL DESCRIPTION | SPELLS BY LEVEL | SPELLS BY CLASS | SPELLS BY SCHOOL"
+                  " | EXIT")
+            INPUT = input().lower()
+
+            if INPUT == "exit":
+                break
+            elif INPUT == "full spell list":
+                for spell in self.spell_list:
+                    print(spell)
+            elif INPUT == "spell description":
+                self.getSpellDesc()
+            elif INPUT == "spells by level":
+                self.getSpellbyLevel()
+            elif INPUT == "spells by class":
+                self.getSpellbyClass()
+            elif INPUT == "spells by school":
+                self.getSpellbySchool()
+            else:
+                print("That is not an option.")
+
+    # Spells by description menu
+    def getSpellDesc(self):
+        while True:
+            print("Please enter spell or EXIT")
+            INPUT = input().lower()
+            if INPUT == "exit":
+                break
+            elif INPUT in self.spell_list:
+                print(self.desc_dict[INPUT])
+            else:
+                print("That is not a spell")
+            print("\n")
+
+    # Spells by level menu
+    def getSpellbyLevel(self):
+        while True:
+            print("Please enter spell or level or EXIT")
+            INPUT = input().lower()
+            if INPUT == "exit":
+                break
+            elif INPUT in "123456789" or INPUT == "cantrip":
+                for spell in self.level2spell[INPUT]:
+                    print(spell)
+            elif INPUT in self.spell_list:
+                print(self.spell2level[INPUT])
+            else:
+                print("That is not an option")
+            print("\n")
+
+    # Spells by class menu
+    def getSpellbyClass(self):
+        while True:
+            print("Please enter spell or class or EXIT")
+            INPUT = input().lower()
+            if INPUT == "exit":
+                break
+            elif INPUT in self.classes:
+                for spell in self.class2spell[INPUT]:
+                    print(spell)
+            elif INPUT in self.spell_list:
+                print(self.spell2class[INPUT])
+            else:
+                print("That is not an option")
+            print("\n")
+
+    # Spells by school menu
+    def getSpellbySchool(self):
+        while True:
+            print("Please enter spell or school or EXIT")
+            INPUT = input().lower()
+            if INPUT == "exit":
+                break
+            elif INPUT in self.schools:
+                for spell in self.school2spell[INPUT]:
+                    print(spell)
+            elif INPUT in self.spell_list:
+                print(self.spell2school[INPUT])
+            else:
+                print("That is not an option")
+            print("\n")
 
 
 ########################################################################################################################
@@ -99,4 +221,4 @@ if __name__ == "__main__":
     spells = SpellList("spells")
     spells.readIn("spell_lists/spells.txt", "spell_lists/spell_list.txt")
 
-    print(spells.class2spell["bard"])
+    spells.getInfo()
