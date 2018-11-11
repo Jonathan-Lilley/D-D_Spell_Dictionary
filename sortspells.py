@@ -1,0 +1,5 @@
+lines = "\n".join(sorted([line.strip()[:line.strip().index(" (O")] for line in open("spell_list.txt")]))
+f = open("spell_list.txt", "w")
+f.write(lines)
+f.close()
+print(lines)
