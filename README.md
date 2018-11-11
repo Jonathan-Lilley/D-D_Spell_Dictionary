@@ -2,8 +2,6 @@
 
 A searchable dictionary for 5th Edition Dungeons and Dragons spells
 
-Currently searchable by spell name for spell description
-
 ## Goals:
 ### Part one (trivial):
 1. Searchable for description (COMPLETE)
