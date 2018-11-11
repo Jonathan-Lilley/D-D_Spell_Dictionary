@@ -7,7 +7,7 @@ Currently searchable by spell name for spell description
 ## Goals:
 ### Part one (trivial):
 1. Searchable for description (COMPLETE)
-2. Searchable by/for class
+2. Searchable by/for class (COMPLETE)
 3. Searchable by/for duration
 4. Searchable by/for casting time
 5. Searchable by/for range

@@ -21,12 +21,13 @@ class SpellList:
                        "transmutation"]
         self.ritual = [True, False]
         self.desc_dict = {}
-        self.class_dict = {}
-        self.level_dict = {}
-        self.school_dict = {}
-        self.duration_dict = {}
-        self.range_dict = {}
-        self.components_dict = {}
+        self.spell2class = {}
+        self.class2spell = {}
+        self.spell2level = {}
+        self.spell2school = {}
+        self.spell2duration = {}
+        self.spell2range = {}
+        self.spell2components = {}
 
     # Reads in data and processes it into its final format
     def readIn(self, spells_file, spell_list_file):
@@ -66,9 +67,15 @@ class SpellList:
 
         # Creates a dictionary from spell name to classes
         for class_name in self.classes:
-            spells = [line.strip()[:line.strip().index(" (")] for line in open("spell_lists/"+class_name+".txt") if line.strip() != "" and "Level" not in line.strip()]
+            spells = [line.strip() for line in open("spell_lists/"+class_name+".txt")]
             for spell in spells:
-                self.class_dict[spell] = self.class_dict.get(spell, []) + [class_name]
+                self.spell2class[spell] = self.spell2class.get(spell, []) + [class_name]
+
+        # Creates a dictionary from classes to spell name
+        for class_name in self.classes:
+            for spell in self.spell2class:
+                if class_name in self.spell2class[spell]:
+                    self.class2spell[class_name] = self.class2spell.get(class_name, []) + [spell]
 
         # Creates a dictionary from spell name to duration
 
@@ -92,4 +99,4 @@ if __name__ == "__main__":
     spells = SpellList("spells")
     spells.readIn("spell_lists/spells.txt", "spell_lists/spell_list.txt")
 
-    print(spells.spell_list)
+    print(spells.class2spell["bard"])

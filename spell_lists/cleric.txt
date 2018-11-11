@@ -1,124 +1,113 @@
-Guidance (divination)
-Light (evocation)
-Mending (transmutation)
-Resistance (abjuration)
-Sacred Flame (evocation)
-Spare the Dying (necromancy)
-Thaumaturgy (transmutation)
-Toll the dead (necromancy)(XAN)
-Word of radiance (evocation)(XAN)
-1st Level
-Bane (enchantment)
-Bless (enchantment)
-Ceremony(R) (abjuration)(XAN)
-Command (enchantment)
-Create or Destroy Water (transmutation)
-Cure Wounds (evocation)
-Detect Evil and Good (divination)
-Detect Magic(R) (divination)
-Detect Poison and Disease* (divination)
-Guiding Bolt (evocation)
-Healing Word (evocation)
-Inflict Wounds (necromancy)
-Protection from Evil and Good (abjuration)
-Purify Food and Drink(R) (transmutation)
-Sanctuary (abjuration)
-Shield of Faith (abjuration)
-2nd Level
-Aid (abjuration)
-Augury(R) (divination)
-Blindness/Deafness (necromancy)
-Calm Emotions (enchantment)
-Continual Flame (evocation)
-Enhance Ability (transmutation)
-Find Traps (divination)
-Gentle Repose(R) (necromancy)
-Hold Person (enchantment)
-Lesser Restoration (abjuration)
-Locate Object (divination)
-Prayer of Healing (evocation)
-Protection from Poison (abjuration)
-Silence(R) (illusion)
-Spiritual Weapon (evocation)
-Warding Bond (abjuration)
-Zone of Truth (enchantment)
-3rd Level
-Animate Dead (necromancy)
-Beacon of Hope (abjuration)
-Bestow Curse (necromancy)
-Clairvoyance (divination)
-Create Food and Water (conjuration)
-Daylight (evocation)
-Dispel Magic (abjuration)
-Feign Death(R) (necromancy)
-Glyph of Warding (abjuration)
-Life transference (necromancy)(XAN)
-Magic Circle (abjuration)
-Mass Healing Word (evocation)
-Meld into Stone(R) (transmutation)
-
-Protection from Energy (abjuration)
-Remove Curse (abjuration)
-Revivify (necromancy)
-Sending (evocation)
-Speak with Dead (necromancy)
-Spirit Guardians (conjuration)
-Tongues (divination)
-Water Walk(R) (transmutation)
-4th Level
-Banishment (abjuration)
-Control Water (transmutation)
-Death Ward (abjuration)
-Divination(R) (divination)
-Freedom of Movement (abjuration)
-Guardian of Faith (conjuration)
-Locate Creature (divination)
-Stone Shape (transmutation)
-5th Level
-Commune(R) (divination)
-Contagion (necromancy)
-Dawn (evocation)(XAN)
-Dispel Evil and Good (abjuration)
-Flame Strike (evocation)
-Geas (enchantment)
-Greater Restoration (abjuration)
-Hallow (evocation)
-Holy weapon (evocation)(XAN)
-Insect Plague (conjuration)
-Legend Lore (divination)
-Mass Cure Wounds (evocation)
-Planar Binding (abjuration)
-Raise Dead (necromancy)
-Scrying (divination)
-6th Level
-Blade Barrier (evocation)
-Create Undead (necromancy)
-Find the Path (divination)
-Forbiddance(R) (abjuration)
-Harm (necromancy)
-Heal (evocation)
-Heroes’ Feast (conjuration)
-Planar Ally (conjuration)
-True Seeing (divination)
-Word of Recall (conjuration)
-7th Level
-Conjure Celestial (conjuration)
-Divine Word (evocation)
-Etherealness (transmutation)
-Fire Storm (evocation)
-Plane Shift (conjuration)
-Regenerate (transmutation)
-Resurrection (necromancy)
-Symbol (abjuration)
-Temple of the gods (conjuration)(XAN)
-8th Level
-Antimagic Field (abjuration)
-Control Weather (transmutation)
-Earthquake (evocation)
-Holy Aura (abjuration)
-
-9th Level
-Astral Projection (necromancy)
-Gate (conjuration)
-Mass Heal (evocation)
-True Resurrection (necromancy)
+Guidance
+Light
+Mending
+Resistance
+Sacred Flame
+Spare the Dying
+Thaumaturgy
+Toll the dead
+Word of radiance
+Bane
+Bless
+Ceremony(R)
+Command
+Create or Destroy Water
+Cure Wounds
+Detect Evil and Good
+Detect Magic(R)
+Detect Poison and Disease*
+Guiding Bolt
+Healing Word
+Inflict Wounds
+Protection from Evil and Good
+Purify Food and Drink(R)
+Sanctuary
+Shield of Faith
+Aid
+Augury(R)
+Blindness/Deafness
+Calm Emotions
+Continual Flame
+Enhance Ability
+Find Traps
+Gentle Repose(R)
+Hold Person
+Lesser Restoration
+Locate Object
+Prayer of Healing
+Protection from Poison
+Silence(R)
+Spiritual Weapon
+Warding Bond
+Zone of Truth
+Animate Dead
+Beacon of Hope
+Bestow Curse
+Clairvoyance
+Create Food and Water
+Daylight
+Dispel Magic
+Feign Death(R)
+Glyph of Warding
+Life transference
+Magic Circle
+Mass Healing Word
+Meld into Stone(R)
+Protection from Energy
+Remove Curse
+Revivify
+Sending
+Speak with Dead
+Spirit Guardians
+Tongues
+Water Walk(R)
+Banishment
+Control Water
+Death Ward
+Divination(R)
+Freedom of Movement
+Guardian of Faith
+Locate Creature
+Stone Shape
+Commune(R)
+Contagion
+Dawn
+Dispel Evil and Good
+Flame Strike
+Geas
+Greater Restoration
+Hallow
+Holy weapon
+Insect Plague
+Legend Lore
+Mass Cure Wounds
+Planar Binding
+Raise Dead
+Scrying
+Blade Barrier
+Create Undead
+Find the Path
+Forbiddance(R)
+Harm
+Heal
+Heroes’ Feast
+Planar Ally
+True Seeing
+Word of Recall
+Conjure Celestial
+Divine Word
+Etherealness
+Fire Storm
+Plane Shift
+Regenerate
+Resurrection
+Symbol
+Temple of the gods
+Antimagic Field
+Control Weather
+Earthquake
+Holy Aura
+Astral Projection
+Gate
+Mass Heal
+True Resurrection

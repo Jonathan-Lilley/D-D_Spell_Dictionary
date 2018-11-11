@@ -1,54 +1,50 @@
-Bless (enchantment)
-Ceremony(R) (abjuration)(XAN)
-Command (enchantment)
-Compelled Duel (enchantment)
-Cure Wounds (evocation)
-Detect Evil and Good (divination)
-Detect Magic(R) (divination)
-Detect Poison and Disease(R) (divination)
-Divine Favor (evocation)
-Heroism (enchantment)
-Protection from Evil and Good (abjuration)
-Purify Food and Drink(R) (transmutation)
-Searing Smite (evocation)
-Shield of Faith (abjuration)
-Thunderous Smite (evocation)
-Wrathful Smite (evocation)
-2nd Level
-Aid (abjuration)
-Branding Smite (evocation)
-Find Steed (conjuration)
-Lesser Restoration (abjuration)
-Locate Object (divination)
-Magic Weapon (transmutation)
-Protection from Poison (abjuration)
-Zone of Truth (enchantment)
-3rd Level
-Aura of Vitality (evocation)
-Blinding Smite (evocation)
-Create Food and Water (conjuration)
-Crusader’s Mantle (evocation)
-Daylight (evocation)
-Dispel Magic (abjuration)
-Elemental Weapon (transmutation)
-Magic Circle (abjuration)
-Remove Curse (abjuration)
-Revivify (necromancy)
-4th Level
-Aura of Life (abjuration)
-Aura of Purity (abjuration)
-Banishment (abjuration)
-Death Ward (abjuration)
-Find greater steed (conjuration)(XAN)
-Locate Creature (divination)
-Staggering Smite (evocation)
-5th Level
-Banishing Smite (abjuration)
-Circle of Power (abjuration)
-Destructive Wave (evocation)
-Dispel Evil and Good (abjuration)
-Geas (enchantment)
-Holy weapon (evocation)(XAN)
-Raise Dead (necromancy)
-Planar Binding (abjuration)
-Raise Dead (necromancy)
+Bless
+Ceremony(R)
+Command
+Compelled Duel
+Cure Wounds
+Detect Evil and Good
+Detect Magic(R)
+Detect Poison and Disease(R)
+Divine Favor
+Heroism
+Protection from Evil and Good
+Purify Food and Drink(R)
+Searing Smite
+Shield of Faith
+Thunderous Smite
+Wrathful Smite
+Aid
+Branding Smite
+Find Steed
+Lesser Restoration
+Locate Object
+Magic Weapon
+Protection from Poison
+Zone of Truth
+Aura of Vitality
+Blinding Smite
+Create Food and Water
+Crusader’s Mantle
+Daylight
+Dispel Magic
+Elemental Weapon
+Magic Circle
+Remove Curse
+Revivify
+Aura of Life
+Aura of Purity
+Banishment
+Death Ward
+Find greater steed
+Locate Creature
+Staggering Smite
+Banishing Smite
+Circle of Power
+Destructive Wave
+Dispel Evil and Good
+Geas
+Holy weapon
+Raise Dead
+Planar Binding
+Raise Dead

@@ -1,161 +1,150 @@
-Control flames (transmutation)(XAN)
-Create bonfire (conjuration)(XAN)
-Druidcraft (transmutation)
-Frostbite (evocation)(XAN)
-Guidance (divination)
-Gust (transmutation)(XAN)
-Infestation (conjuration)(XAN)
-Magic stone (transmutation)(XAN)
-Mending (transmutation)
-Mold earth (transmutation)(XAN)
-Primal savagery (transmutation)(XAN)
-Poison Spray (conjuration)
-Produce Flame (conjuration)
-Shape water (transmutation)(XAN)
-Resistance (abjuration)
-Shillelagh (transmutation)
-Thorn Whip (transmutation)
-Thunderclap (evocation)(XAN)
-1st Level
-Absorb elements (abjuration)(XAN)
-Animal Friendship (enchantment)
-Beast bond (divination)(XAN)
-Charm Person (enchantment)
-Create or Destroy Water (transmutation)
-Cure Wounds (evocation)
-Detect Magic(R) (divination)
-Detect Poison and Disease* (divination)
-Earth tremor (evocation)(XAN)
-Entangle (conjuration)
-Faerie Fire (evocation)
-Fog Cloud (conjuration)
-Goodberry (transmutation)
-Healing Word (evocation)
-lce knife (conjuration)(XAN)
-Jump (transmutation)
-Longstrider (transmutation)
-Purify Food and Drink(R) (transmutation)
-Snare (abjuration)(XAN)
-Speak with Animals(R) (divination)
-Thunderwave (evocation)
-2nd Level
-Animal Messenger* (enchantment)
-Barkskin (transmutation)
-Beast Sense(R) (divination)
-Darkvision (transmutation)
-Dust devil (conjuration)(XAN)
-Earthbind (transmutation)(XAN)
-Healing spirit (conjuration)(XAN)
-Skywrite(R) (transmutation)(XAN)
-Enhance Ability (transmutation)
-Find Traps (divination)
-Flame Blade (evocation)
-Flaming Sphere (conjuration)
-Gust of Wind (evocation)
-Heat Metal (transmutation)
-Hold Person (enchantment)
-Lesser Restoration (abjuration)
-Locate Animals or Plants(R) (divination)
-Locate Object (divination)
-
-Moonbeam (evocation)
-Pass without Trace (abjuration)
-Protection from Poison (abjuration)
-Spike Growth (transmutation)
-Warding wind (evocation)(XAN)
-3rd Level
-Call Lightning (conjuration)
-Conjure Animals (conjuration)
-Daylight (evocation)
-Dispel Magic (abjuration)
-Erupting earth (transmutation)(XAN)
-Feign Death(R) (necromancy)
-Flame arrows (transmutation)(XAN)
-Meld into Stone(R) (transmutation)
-Plant Growth (transmutation)
-Protection from Energy (abjuration)
-Sleet Storm (conjuration)
-Speak with Plants (transmutation)
-Tidal wave (conjuration)(XAN)
-Wall of water (evocation)(XAN)
-Water Breathing(R) (transmutation)
-Water Walk(R) (transmutation)
-Wind Wall (evocation)
-4th Level
-Blight (necromancy)
-Charm monster (enchantment)(XAN)
-Confusion (enchantment)
-Conjure Minor Elementals (conjuration)
-Conjure Woodland Beings (conjuration)
-Control Water (transmutation)
-Dominate Beast (enchantment)
-Elemental bane (transmutation)(XAN)
-Freedom of Movement (abjuration)
-Giant Insect (transmutation)
-Grasping Vine (conjuration)
-Guardian of nature (transmutation)(XAN)
-Hallucinatory Terrain (illusion)
-Ice Storm (evocation)
-Locate Creature (divination)
-Polymorph (transmutation)
-Stone Shape (transmutation)
-Stoneskin (abjuration)
-Wall of Fire (evocation)
-Watery sphere (conjuration)(XAN)
-5th Level
-Antilife Shell (abjuration)
-Awaken (transmutation)
-Commune with Nature(R) (divination)
-Conjure Elemental (conjuration)
-Control winds (transmutation)(XAN)
-Contagion (necromancy)
-Geas (enchantment)
-Greater Restoration (abjuration)
-Insect Plague (conjuration)
-Maelstrom (evocation)(XAN)
-Mass Cure Wounds (evocation)
-Planar Binding (abjuration)
-Reincarnate (transmutation)
-Scrying (divination)
-Transmute rock (transmutation)(XAN)
-Tree Stride (conjuration)
-
-Wall of Stone (evocation)
-Wrath of nature (evocation)(XAN)
-6th Level
-Bones of the earth (transmutation)(XAN)
-Conjure Fey (conjuration)
-Druid grove (abjuration)(XAN)
-Find the Path (divination)
-Heal (evocation)
-Heroes’ Feast (conjuration)
-lnvestiture of flame (transmutation)(XAN)
-lnvestiture of ice (transmutation)(XAN)
-lnvestiture of stone (transmutation)(XAN)
-lnvestiture of wind (transmutation)(XAN)
-Move Earth (transmutation)
-Primordial ward (abjuration)(XAN)
-Sunbeam (evocation)
-Transport via Plants (conjuration)
-Wall of Thorns (conjuration)
-Wind Walk (transmutation)
-7th Level
-Fire Storm (evocation)
-Mirage Arcane (illusion)
-Plane Shift (conjuration)
-Regenerate (transmutation)
-Reverse Gravity (transmutation)
-Whirlwind (evocation)(XAN)
-8th Level
-Animal Shapes (transmutation)
-Antipathy/Sympathy (enchantment)
-Control Weather (transmutation)
-Earthquake (evocation)
-Feeblemind (enchantment)
-Sunburst (evocation)
-Tsunami (conjuration)
-9th Level
-Foresight (divination)
-Shapechange (transmutation)
-Storm of Vengeance (conjuration)
-True Resurrection (necromancy)
+Control flames
+Create bonfire
+Druidcraft
+Frostbite
+Guidance
+Gust
+Infestation
+Magic stone
+Mending
+Mold earth
+Primal savagery
+Poison Spray
+Produce Flame
+Shape water
+Resistance
+Shillelagh
+Thorn Whip
+Thunderclap
+Absorb elements
+Animal Friendship
+Beast bond
+Charm Person
+Create or Destroy Water
+Cure Wounds
+Detect Magic(R)
+Detect Poison and Disease*
+Earth tremor
+Entangle
+Faerie Fire
+Fog Cloud
+Goodberry
+Healing Word
+lce knife
+Jump
+Longstrider
+Purify Food and Drink(R)
+Snare
+Speak with Animals(R)
+Thunderwave
+Animal Messenger*
+Barkskin
+Beast Sense(R)
+Darkvision
+Dust devil
+Earthbind
+Healing spirit
+Skywrite(R)
+Enhance Ability
+Find Traps
+Flame Blade
+Flaming Sphere
+Gust of Wind
+Heat Metal
+Hold Person
+Lesser Restoration
+Locate Animals or Plants(R)
+Locate Object
+Moonbeam
+Pass without Trace
+Protection from Poison
+Spike Growth
+Warding wind
+Call Lightning
+Conjure Animals
+Daylight
+Dispel Magic
+Erupting earth
+Feign Death(R)
+Flame arrows
+Meld into Stone(R)
+Plant Growth
+Protection from Energy
+Sleet Storm
+Speak with Plants
+Tidal wave
+Wall of water
+Water Breathing(R)
+Water Walk(R)
+Wind Wall
+Blight
+Charm monster
+Confusion
+Conjure Minor Elementals
+Conjure Woodland Beings
+Control Water
+Dominate Beast
+Elemental bane
+Freedom of Movement
+Giant Insect
+Grasping Vine
+Guardian of nature
+Hallucinatory Terrain
+Ice Storm
+Locate Creature
+Polymorph
+Stone Shape
+Stoneskin
+Wall of Fire
+Watery sphere
+Antilife Shell
+Awaken
+Commune with Nature(R)
+Conjure Elemental
+Control winds
+Contagion
+Geas
+Greater Restoration
+Insect Plague
+Maelstrom
+Mass Cure Wounds
+Planar Binding
+Reincarnate
+Scrying
+Transmute rock
+Tree Stride
+Wall of Stone
+Wrath of nature
+Bones of the earth
+Conjure Fey
+Druid grove
+Find the Path
+Heal
+Heroes’ Feast
+lnvestiture of flame
+lnvestiture of ice
+lnvestiture of stone
+lnvestiture of wind
+Move Earth
+Primordial ward
+Sunbeam
+Transport via Plants
+Wall of Thorns
+Wind Walk
+Fire Storm
+Mirage Arcane
+Plane Shift
+Regenerate
+Reverse Gravity
+Whirlwind
+Animal Shapes
+Antipathy/Sympathy
+Control Weather
+Earthquake
+Feeblemind
+Sunburst
+Tsunami
+Foresight
+Shapechange
+Storm of Vengeance
+True Resurrection

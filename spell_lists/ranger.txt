@@ -1,59 +1,55 @@
-Absorb elements (abjuration)(XAN)
-Alarm(R) (abjuration)
-Animal Friendship (enchantment)
-Beast bond (divination)(XAN)
-Cure Wounds (evocation)
-Detect Magic(R) (divination)
-Detect Poison and Disease(R) (divination)
-Ensnaring Strike (conjuration)
-Fog Cloud (conjuration)
-Goodberry (transmutation)
-Hail of Thorns (conjuration)
-Hunter’s Mark (divination)
-Jump (transmutation)
-Longstrider (transmutation)
-Snare (abjuration)(XAN)
-Speak with Animals(R) (divination)
-Zephyr strike (transmutation)(XAN)
-2nd Level
-Animal Messenger(R) (enchantment)
-Barkskin (transmutation)
-Beast Sense(R) (divination)
-Cordon of Arrows (transmutation)
-Darkvision (transmutation)
-Find Traps (divination)
-Healing spirit (conjuration)(XAN)
-Lesser Restoration (abjuration)
-Locate Animals or Plants(R) (divination)
-Locate Object (divination)
-Pass without Trace (abjuration)
-Protection from Poison (abjuration)
-Silence(R) (illusion)
-Spike Growth (transmutation)
-3rd Level
-Conjure Animals (conjuration)
-Conjure Barrage (conjuration)
-Daylight (evocation)
-Flame arrows (transmutation)(XAN)
-Lightning Arrow (transmutation)
-Nondetection (abjuration)
-Plant Growth (transmutation)
-Protection from Energy (abjuration)
-Speak with Plants (transmutation)
-Water Breathing(R) (transmutation)
-Water Walk(R) (transmutation)
-Wind Wall (evocation)
-4th Level
-Conjure Woodland Beings (conjuration)
-Freedom of Movement (abjuration)
-Grasping Vine (conjuration)
-Guardian of nature (transmutation)(XAN)
-Locate Creature (divination)
-Stoneskin (abjuration)
-5th Level
-Commune with Nature(R) (divination)
-Conjure Volley (conjuration)
-Steel wind strike (conjuration)(XAN)
-Swift Quiver (transmutation)
-Tree Stride (conjuration)
-Wrath of nature (evocation)(XAN)
+Absorb elements
+Alarm(R)
+Animal Friendship
+Beast bond
+Cure Wounds
+Detect Magic(R)
+Detect Poison and Disease(R)
+Ensnaring Strike
+Fog Cloud
+Goodberry
+Hail of Thorns
+Hunter’s Mark
+Jump
+Longstrider
+Snare
+Speak with Animals(R)
+Zephyr strike
+Animal Messenger(R)
+Barkskin
+Beast Sense(R)
+Cordon of Arrows
+Darkvision
+Find Traps
+Healing spirit
+Lesser Restoration
+Locate Animals or Plants(R)
+Locate Object
+Pass without Trace
+Protection from Poison
+Silence(R)
+Spike Growth
+Conjure Animals
+Conjure Barrage
+Daylight
+Flame arrows
+Lightning Arrow
+Nondetection
+Plant Growth
+Protection from Energy
+Speak with Plants
+Water Breathing(R)
+Water Walk(R)
+Wind Wall
+Conjure Woodland Beings
+Freedom of Movement
+Grasping Vine
+Guardian of nature
+Locate Creature
+Stoneskin
+Commune with Nature(R)
+Conjure Volley
+Steel wind strike
+Swift Quiver
+Tree Stride
+Wrath of nature
