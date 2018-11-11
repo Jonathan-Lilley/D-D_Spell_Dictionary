@@ -1,5 +1,5 @@
 ''' SPELL FORMATTER'''
-''' Formats spells so they are usable by spell_processor.py '''
+''' Formats spells so they are usable by spell_dictionary.py '''
 
 classes = ["bard","cleric","druid","paladin","ranger","sorcerer","warlock","wizard"]
 
