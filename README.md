@@ -15,11 +15,12 @@ Currently searchable by spell name for spell description
 7. Searchable by/for ritual
 8. Searchable by/for level (COMPLETE)
 9. Searchable by/for school (COMPLETE)
+10. Searchable for full spell info (COMPLETE)
 ### Part two (non-trivial):
-10. Searchable by/for damage/healing dice (including damage at higher levels)
-11. Searchable by/for damage type
-12. Searchable by/for effects/conditions
-13. Searchable by/for direct damage/healing/utility/buff/debuff
+1. Searchable by/for damage/healing dice (including damage at higher levels)
+2. Searchable by/for damage type
+3. Searchable by/for effects/conditions
+4. Searchable by/for direct damage/healing/utility/buff/debuff
 ### Part three (interface):
 1. Text based (UP-TO-DATE)
 2. GUI

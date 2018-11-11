@@ -2,7 +2,6 @@
 '''  This is the main spell processor. It combines everything and sets up the whole dictionary and search methods.   '''
 
 ''' IMPORTS '''
-from os import listdir
 
 ''' SPELLS CLASS '''
 
@@ -32,6 +31,7 @@ class SpellList:
         self.spell2duration = {}
         self.spell2range = {}
         self.spell2components = {}
+        self.spell2all = {}
 
     # Reads in data and processes it into its final format
     def readIn(self, spells_file, spell_list_file):
@@ -123,6 +123,11 @@ class SpellList:
         # Creates a dictionary from spell name to range
 
 
+        # Creates a dictionary from spell name to full info
+        for spell in range(len(self.spell_list)):
+            self.spell2all[self.spell_list[spell]] = self.spells[spell][1:]
+
+
 
     # INTERFACE
 
@@ -132,7 +137,7 @@ class SpellList:
         while True:
             print("Please enter desired information type")
             print("Options: FULL SPELL LIST | SPELL DESCRIPTION | SPELLS BY LEVEL | SPELLS BY CLASS | SPELLS BY SCHOOL"
-                  " | EXIT")
+                  " | FULL SPELL INFO | EXIT")
             INPUT = input().lower()
 
             if INPUT == "exit":
@@ -148,6 +153,8 @@ class SpellList:
                 self.getSpellbyClass()
             elif INPUT == "spells by school":
                 self.getSpellbySchool()
+            elif INPUT == "full spell info":
+                self.getSpellInfo()
             else:
                 print("That is not an option.")
 
@@ -162,7 +169,6 @@ class SpellList:
                 print(self.desc_dict[INPUT])
             else:
                 print("That is not a spell")
-            print("\n")
 
     # Spells by level menu
     def getSpellbyLevel(self):
@@ -178,7 +184,6 @@ class SpellList:
                 print(self.spell2level[INPUT])
             else:
                 print("That is not an option")
-            print("\n")
 
     # Spells by class menu
     def getSpellbyClass(self):
@@ -194,7 +199,6 @@ class SpellList:
                 print(self.spell2class[INPUT])
             else:
                 print("That is not an option")
-            print("\n")
 
     # Spells by school menu
     def getSpellbySchool(self):
@@ -210,11 +214,23 @@ class SpellList:
                 print(self.spell2school[INPUT])
             else:
                 print("That is not an option")
-            print("\n")
+
+    # Full info for spell
+    def getSpellInfo(self):
+        while True:
+            print("Please enter spell or EXIT")
+            INPUT = input().lower()
+            if INPUT == "exit":
+                break
+            elif INPUT in self.spell_list:
+                for line in self.spell2all[INPUT]:
+                    print(line)
+            else:
+                print("That is not an option")
 
 
 ########################################################################################################################
-'''                                                      Tests                                                       '''
+'''                                                  Tests                                                           '''
 
 if __name__ == "__main__":
 
